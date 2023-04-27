@@ -256,7 +256,7 @@ button {
 .boton{
     display: grid;
     place-content: center;
-    padding-top: 13px;
+    padding-top: 15px;
 }
 button:hover {
     background-color: #83baee;
@@ -437,8 +437,8 @@ img {
     }
     /* ------------------ CONTAINER__CONTACTO ------------------ */
     .container__contacto{
-        width: 70%;
-        height: 26rem;
+        width: 80%;
+        height: 31rem;
         margin: 40px auto 0 auto;
         background-color: #F5F5F5F0;
     }
@@ -447,19 +447,13 @@ img {
         padding-top: 35px;
         color: rgb(0, 0, 0);
     }
-    form {
-        width: 700px;
-    }
     form input {
-        width: 332px;
+        width: 95%;
         height: 49.66px;
         margin-top: 20px;
     }
-    input[type=email] {
-        margin-left: 18px;
-    }
     textarea {
-        width: 685px;
+        width: 95%;
         height: 99.33px;
         margin-top: 40px;
     }
